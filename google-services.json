@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "690828695085",
+    "firebase_url": "https://messagingappda-default-rtdb.firebaseio.com",
+    "project_id": "messagingappda",
+    "storage_bucket": "messagingappda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690828695085:android:700f60c9dd5465ffb2caa4",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcOxc-niiNbOi2wyKN-X3JsOnZkRLKfcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
