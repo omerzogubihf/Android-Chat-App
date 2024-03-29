@@ -72,7 +72,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/typing_space_parent"
-        android:layout_width="297dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="5dp"
@@ -82,11 +82,12 @@
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:outlineProvider="none"
+        android:layout_toLeftOf="@id/add_media_parent"
         app:cardCornerRadius="22dp">
 
         <EditText
             android:id="@+id/typing_space"
-            android:layout_width="298dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:hint="Enter message"
@@ -123,18 +124,18 @@
         android:layout_margin="5dp"
         app:cardCornerRadius="22dp"
         android:background="@android:color/transparent"
-
+        android:id="@+id/add_media_parent"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/send_btn_parent">
 
         <ImageView
+            android:id="@+id/add_media_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/add_media_btn"
-            android:src="@drawable/sendmedia"
-            android:scaleType="fitCenter"
+            android:background="?attr/colorAccent"
             android:padding="10dp"
-            android:background="?attr/colorAccent"/>
+            android:scaleType="fitCenter"
+            android:src="@drawable/sendmedia" />
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
