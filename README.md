@@ -33,4 +33,4 @@ To get started with ChatApp, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/ChatApp.git
+   git clone https://github.com/omerzogubihf/ChatApp.git
